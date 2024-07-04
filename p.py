@@ -76,3 +76,4 @@ threading.Thread(target=leave_chat_repeatedly, daemon=True).start()
 # Keep the main thread alive
 while True:
     time.sleep(1)
+
